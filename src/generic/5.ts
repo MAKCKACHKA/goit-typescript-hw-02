@@ -11,9 +11,9 @@
 //   keys: 12314,
 // };
 
-interface KeyValuePair<T, U> {
-  key: T;
-  value: U;
+interface KeyValuePair<K, V> {
+  key: K;
+  value: V;
 }
 
 const test: KeyValuePair<string, number> = {
